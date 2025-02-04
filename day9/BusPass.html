@@ -1,0 +1,133 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BusPass</title>
+    </head>
+    <body>
+        <center>
+            <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+            <h2> GENERAL BUS PASS APPLICATION</h2>
+        </center>
+        <form method="get" action="Application.html" autocomplete="off">
+            <fieldset>
+                <legend>
+                    Application Details
+                </legend>
+                <label for="name">
+                    Name :
+                </label>
+                <input type="text" minimum="8" maximum="12" pattern="[a-zA-Z]+" required>&nbsp;
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp;
+                <label for="name">Father's/Guardian's Name :</label>
+                <input type="text"  minimum="8" maximum="12" pattern="[a-zA-Z]+" required>
+                <br><br>
+                <label for="dob" required>Date Of Birth :</label>
+                <input type="date" id="dob" name="dob" required>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" value="male" required>male &nbsp;
+            <input type="radio" name="gender" value="female" required>female &nbsp; &nbsp; &nbsp; &nbsp;
+        <br><br>
+        <label for="age">Age As On :</label>
+        <input type="text" id="age" pattern="[0-9]{2}"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <label for="Whats App No">Whats App No</label>
+        <input type="number" id="Whats APP No" required>&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<br><br>
+        <label for="number">Addhar No:</label>
+        <input type="number" id="number" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp; &nbsp;  &nbsp;&nbsp;
+        <label for="email id">E-mail id :</label>
+        <input type="text" id="email id" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; <br><br>
+        <label type="myfile">Photo :</label>
+        <input type="file" id="myfile" value="Choose file">
+    </fieldset>
+
+    <fieldset>
+        <legend> Residental Address Details</legend> 
+<label for="address">Application's Address:</label>
+            <TEXTAREA rows="4" cols="20" name="content field"></TEXTAREA>
+            <label for="Hyderabad">Districts:</label>
+            <select id="Districts">
+
+                <option value="name"> Hyderabad</option>
+                <option value="name">Vizag</option>
+<option value="name">Chennai</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br>
+            <label for="name">Mandals:</label>
+            <select id="Mandals">
+                <option value="name">PeddhaPelli</option>
+                <option value="name"> Kortula</option>
+                <option value="name"> jagtial</option>
+            </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;
+            <label for="name">Villages:</label>
+            <select id="Villages">
+                <option value="name"> Kondagattu</option>
+                <option value="name"> Raikal</option>
+                <option value="name"> lingampet</option>
+            </select>
+            <br><br>
+            <label for="number"> Pincode:</label>
+            <input type="number" id="number" required>
+        </fieldset><br>
+        <fieldset>
+            <legend>Pass Type Details</legend>
+            
+            <label for="name">City:</label>
+            <select id="name">
+                <option value="name">Vizag</option>
+                <option value="name">Hyderabad</option>
+            </select> &nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br>
+
+            <label for="name">Pass Type:</label>
+            <select id="name">
+                <option value="name">--select--</option>
+                <option value="name">Online</option>
+                <option value="name">Offline</option>
+            </select> &nbsp;&nbsp;&nbsp;&nbsp;
+        </fieldset>
+    <br>
+        <fieldset>
+            <legend>Mode Of Payment & Pass Collection</legend>
+            <label for="name">Payment mode:</label>
+            <select id="name">
+                <option value="name"> select payment mode</option>
+                <option value="name">Online</option>
+                <option value="name">Offline</option>
+            </select> &nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br>
+            
+            <label for="name">  pass delivery mode:</label>
+            <select id="name">
+                <option value="name">  select pass delivery mode</option>
+                <option value="name">Online</option>
+                <option value="name">Offline</option>
+            </select> &nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br>
+            <label for="name">center at which you want to collect pass:</label>
+            <select id="Mandals">
+                <option value="name"> --select-- </option>
+                <option value="name">Srnagar</option>
+                <option value="name">LBnagar</option>
+                <option value="name">Ameerpet</option>
+            </select> &nbsp;&nbsp;&nbsp;&nbsp;
+        </fieldset>
+   <center> <img src="./Capche.jpeg"> </center>
+   <label for="name"> </label>
+       <center><input type="text" id="name" required></center>
+       <br><br>
+       <center>
+       <input type="submit" value="Submit">
+    </center></form>
+</body>
+</html>
